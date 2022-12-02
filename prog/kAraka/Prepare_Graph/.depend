@@ -1,0 +1,282 @@
+/home/san-tel-mar/Zen/ML/gen.cmo :
+/home/san-tel-mar/Zen/ML/gen.cmx :
+/home/san-tel-mar/Zen/ML/list2.cmo :
+/home/san-tel-mar/Zen/ML/list2.cmx :
+/home/san-tel-mar/Zen/ML/word.cmo : \
+    /home/san-tel-mar/Zen/ML/list2.cmo
+/home/san-tel-mar/Zen/ML/word.cmx : \
+    /home/san-tel-mar/Zen/ML/list2.cmx
+/home/san-tel-mar/Zen/ML/share.cmi :
+/home/san-tel-mar/Zen/ML/share.cmo : \
+    /home/san-tel-mar/Zen/ML/share.cmi
+/home/san-tel-mar/Zen/ML/share.cmx : \
+    /home/san-tel-mar/Zen/ML/share.cmi
+/home/san-tel-mar/Zen/ML/unshare.cmo : \
+    /home/san-tel-mar/Zen/ML/trie.cmo
+/home/san-tel-mar/Zen/ML/unshare.cmx : \
+    /home/san-tel-mar/Zen/ML/trie.cmx
+/home/san-tel-mar/Zen/ML/trie.cmo : \
+    /home/san-tel-mar/Zen/ML/word.cmo \
+    /home/san-tel-mar/Zen/ML/list2.cmo \
+    /home/san-tel-mar/Zen/ML/gen.cmo
+/home/san-tel-mar/Zen/ML/trie.cmx : \
+    /home/san-tel-mar/Zen/ML/word.cmx \
+    /home/san-tel-mar/Zen/ML/list2.cmx \
+    /home/san-tel-mar/Zen/ML/gen.cmx
+/home/san-tel-mar/Zen/ML/mini.cmo : \
+    /home/san-tel-mar/Zen/ML/trie.cmo \
+    /home/san-tel-mar/Zen/ML/share.cmi \
+    /home/san-tel-mar/Zen/ML/gen.cmo
+/home/san-tel-mar/Zen/ML/mini.cmx : \
+    /home/san-tel-mar/Zen/ML/trie.cmx \
+    /home/san-tel-mar/Zen/ML/share.cmx \
+    /home/san-tel-mar/Zen/ML/gen.cmx
+/home/san-tel-mar/Zen/ML/deco.cmo : \
+    /home/san-tel-mar/Zen/ML/word.cmo \
+    /home/san-tel-mar/Zen/ML/trie.cmo \
+    /home/san-tel-mar/Zen/ML/list2.cmo
+/home/san-tel-mar/Zen/ML/deco.cmx : \
+    /home/san-tel-mar/Zen/ML/word.cmx \
+    /home/san-tel-mar/Zen/ML/trie.cmx \
+    /home/san-tel-mar/Zen/ML/list2.cmx
+/home/san-tel-mar/Zen/ML/lexmap.cmo : \
+    /home/san-tel-mar/Zen/ML/word.cmo \
+    /home/san-tel-mar/Zen/ML/list2.cmo \
+    /home/san-tel-mar/Zen/ML/deco.cmo
+/home/san-tel-mar/Zen/ML/lexmap.cmx : \
+    /home/san-tel-mar/Zen/ML/word.cmx \
+    /home/san-tel-mar/Zen/ML/list2.cmx \
+    /home/san-tel-mar/Zen/ML/deco.cmx
+/home/san-tel-mar/Zen/ML/minimap.cmi : \
+    /home/san-tel-mar/Zen/ML/lexmap.cmo
+/home/san-tel-mar/Zen/ML/minimap.cmo : \
+    /home/san-tel-mar/Zen/ML/share.cmi \
+    /home/san-tel-mar/Zen/ML/lexmap.cmo \
+    /home/san-tel-mar/Zen/ML/deco.cmo \
+    /home/san-tel-mar/Zen/ML/minimap.cmi
+/home/san-tel-mar/Zen/ML/minimap.cmx : \
+    /home/san-tel-mar/Zen/ML/share.cmx \
+    /home/san-tel-mar/Zen/ML/lexmap.cmx \
+    /home/san-tel-mar/Zen/ML/deco.cmx \
+    /home/san-tel-mar/Zen/ML/minimap.cmi
+pada_structure.cmi :
+build_graph.cmo : \
+    ./DATA/AkAfkRA/xvikarmaka2_dhaatu.cmo \
+    ./DATA/AkAfkRA/xvikarmaka1_dhaatu.cmo \
+    ./DATA/yogyawA/xeSAXikaraNa.cmo \
+    ./DATA/yogyawA/waxXiwAnwa.cmo \
+    ./DATA/AkAfkRA/viRayi.cmo \
+    ./DATA/AkAfkRA/viRayAXikaraNa.cmo \
+    ./DATA/AkAfkRA/vAkyakarma_dhaatu.cmo \
+    ./DATA/yogyawA/upapada6.cmo \
+    ./DATA/yogyawA/upAXi.cmo \
+    /home/san-tel-mar/Zen/ML/trie.cmo \
+    ./DATA/AkAfkRA/shlish_aadi.cmo \
+    ./DATA/AkAfkRA/shakaadi.cmo \
+    ./DATA/AkAfkRA/sampraxAna_dhaatu.cmo \
+    ./DATA/AkAfkRA/samboXana_sUcaka.cmo \
+    ./DATA/yogyawA/sambandhavaaci.cmo \
+    ./DATA/AkAfkRA/sakarmaka_dhaatu.cmo \
+    ./DATA/yogyawA/SabxavAci.cmo \
+    ./DATA/AkAfkRA/Sabxakarma_dhaatu.cmo \
+    ./DATA/yogyawA/saMKyeya.cmo \
+    relations.cmo \
+    ./DATA/AkAfkRA/prawyavasAnArWa_dhaatu.cmo \
+    paths.cmo \
+    ./DATA/yogyawA/parAjAwi.cmo \
+    pada_structure.cmi \
+    ./DATA/yogyawA/pUraNa.cmo \
+    ./DATA/yogyawA/non_RaRTI.cmo \
+    ./DATA/AkAfkRA/nirXAraNa.cmo \
+    ./DATA/yogyawA/named_entity.cmo \
+    ./DATA/yogyawA/manuRyasaFjFAvAcI.cmo \
+    ./DATA/yogyawA/manuRyaparyAya.cmo \
+    /home/san-tel-mar/Zen/ML/list2.cmo \
+    ./DATA/yogyawA/kriyAviSeRaNa.cmo \
+    ./DATA/AkAfkRA/kqxanwa.cmo \
+    ./DATA/AkAfkRA/karwqsamAnAXikaraNa_dhaatu.cmo \
+    ./DATA/AkAfkRA/karmasamAnAXikaraNa_dhaatu.cmo \
+    ./DATA/AkAfkRA/karaNa_dhaatu.cmo \
+    ./DATA/yogyawA/kAlAXva.cmo \
+    ./DATA/yogyawA/kAlAXikaraNa.cmo \
+    ./DATA/yogyawA/intensifiers.cmo \
+    ./DATA/yogyawA/guNavacana.cmo \
+    ./DATA/yogyawA/guNa_not_guNavacana.cmo \
+    ./DATA/AkAfkRA/gawyarWa_dhaatu.cmo \
+    constraint.cmo \
+    ./DATA/AkAfkRA/buxXyarWa_dhaatu.cmo \
+    ./DATA/yogyawA/buxXivAci.cmo \
+    ./DATA/AkAfkRA/bhaava_kqw.cmo \
+    bank_lexer.cmo \
+    ./DATA/yogyawA/avy_viSeRaNam.cmo \
+    ./DATA/AkAfkRA/apAxAna_dhaatu.cmo \
+    ./DATA/yogyawA/animate.cmo \
+    ./DATA/AkAfkRA/amarakosha_jaati.cmo \
+    ./DATA/AkAfkRA/akarmaka_dhaatu.cmo \
+    ./DATA/AkAfkRA/afgavikaara.cmo \
+    ./DATA/AkAfkRA/aaxikarma_dhaatu.cmo
+build_graph.cmx : \
+    ./DATA/AkAfkRA/xvikarmaka2_dhaatu.cmx \
+    ./DATA/AkAfkRA/xvikarmaka1_dhaatu.cmx \
+    ./DATA/yogyawA/xeSAXikaraNa.cmx \
+    ./DATA/yogyawA/waxXiwAnwa.cmx \
+    ./DATA/AkAfkRA/viRayi.cmx \
+    ./DATA/AkAfkRA/viRayAXikaraNa.cmx \
+    ./DATA/AkAfkRA/vAkyakarma_dhaatu.cmx \
+    ./DATA/yogyawA/upapada6.cmx \
+    ./DATA/yogyawA/upAXi.cmx \
+    /home/san-tel-mar/Zen/ML/trie.cmx \
+    ./DATA/AkAfkRA/shlish_aadi.cmx \
+    ./DATA/AkAfkRA/shakaadi.cmx \
+    ./DATA/AkAfkRA/sampraxAna_dhaatu.cmx \
+    ./DATA/AkAfkRA/samboXana_sUcaka.cmx \
+    ./DATA/yogyawA/sambandhavaaci.cmx \
+    ./DATA/AkAfkRA/sakarmaka_dhaatu.cmx \
+    ./DATA/yogyawA/SabxavAci.cmx \
+    ./DATA/AkAfkRA/Sabxakarma_dhaatu.cmx \
+    ./DATA/yogyawA/saMKyeya.cmx \
+    relations.cmx \
+    ./DATA/AkAfkRA/prawyavasAnArWa_dhaatu.cmx \
+    paths.cmx \
+    ./DATA/yogyawA/parAjAwi.cmx \
+    pada_structure.cmi \
+    ./DATA/yogyawA/pUraNa.cmx \
+    ./DATA/yogyawA/non_RaRTI.cmx \
+    ./DATA/AkAfkRA/nirXAraNa.cmx \
+    ./DATA/yogyawA/named_entity.cmx \
+    ./DATA/yogyawA/manuRyasaFjFAvAcI.cmx \
+    ./DATA/yogyawA/manuRyaparyAya.cmx \
+    /home/san-tel-mar/Zen/ML/list2.cmx \
+    ./DATA/yogyawA/kriyAviSeRaNa.cmx \
+    ./DATA/AkAfkRA/kqxanwa.cmx \
+    ./DATA/AkAfkRA/karwqsamAnAXikaraNa_dhaatu.cmx \
+    ./DATA/AkAfkRA/karmasamAnAXikaraNa_dhaatu.cmx \
+    ./DATA/AkAfkRA/karaNa_dhaatu.cmx \
+    ./DATA/yogyawA/kAlAXva.cmx \
+    ./DATA/yogyawA/kAlAXikaraNa.cmx \
+    ./DATA/yogyawA/intensifiers.cmx \
+    ./DATA/yogyawA/guNavacana.cmx \
+    ./DATA/yogyawA/guNa_not_guNavacana.cmx \
+    ./DATA/AkAfkRA/gawyarWa_dhaatu.cmx \
+    constraint.cmx \
+    ./DATA/AkAfkRA/buxXyarWa_dhaatu.cmx \
+    ./DATA/yogyawA/buxXivAci.cmx \
+    ./DATA/AkAfkRA/bhaava_kqw.cmx \
+    bank_lexer.cmx \
+    ./DATA/yogyawA/avy_viSeRaNam.cmx \
+    ./DATA/AkAfkRA/apAxAna_dhaatu.cmx \
+    ./DATA/yogyawA/animate.cmx \
+    ./DATA/AkAfkRA/amarakosha_jaati.cmx \
+    ./DATA/AkAfkRA/akarmaka_dhaatu.cmx \
+    ./DATA/AkAfkRA/afgavikaara.cmx \
+    ./DATA/AkAfkRA/aaxikarma_dhaatu.cmx
+constraint.cmo : \
+    pada_structure.cmi \
+    bank_lexer.cmo
+constraint.cmx : \
+    pada_structure.cmi \
+    bank_lexer.cmx
+paths.cmo :
+paths.cmx :
+relations.cmo :
+relations.cmx :
+./DATA/AkAfkRA/aaxikarma_dhaatu.cmo :
+./DATA/AkAfkRA/aaxikarma_dhaatu.cmx :
+./DATA/AkAfkRA/bhaava_kqw.cmo :
+./DATA/AkAfkRA/bhaava_kqw.cmx :
+./DATA/AkAfkRA/Sabxakarma_dhaatu.cmo :
+./DATA/AkAfkRA/Sabxakarma_dhaatu.cmx :
+./DATA/AkAfkRA/shakaadi.cmo :
+./DATA/AkAfkRA/shakaadi.cmx :
+./DATA/AkAfkRA/shlish_aadi.cmo :
+./DATA/AkAfkRA/shlish_aadi.cmx :
+./DATA/AkAfkRA/afgavikaara.cmo :
+./DATA/AkAfkRA/afgavikaara.cmx :
+./DATA/AkAfkRA/akarmaka_dhaatu.cmo :
+./DATA/AkAfkRA/akarmaka_dhaatu.cmx :
+./DATA/AkAfkRA/amarakosha_jaati.cmo :
+./DATA/AkAfkRA/amarakosha_jaati.cmx :
+./DATA/AkAfkRA/apAxAna_dhaatu.cmo :
+./DATA/AkAfkRA/apAxAna_dhaatu.cmx :
+./DATA/AkAfkRA/buxXyarWa_dhaatu.cmo :
+./DATA/AkAfkRA/buxXyarWa_dhaatu.cmx :
+./DATA/AkAfkRA/gawyarWa_dhaatu.cmo :
+./DATA/AkAfkRA/gawyarWa_dhaatu.cmx :
+./DATA/AkAfkRA/karaNa_dhaatu.cmo :
+./DATA/AkAfkRA/karaNa_dhaatu.cmx :
+./DATA/AkAfkRA/karmasamAnAXikaraNa_dhaatu.cmo :
+./DATA/AkAfkRA/karmasamAnAXikaraNa_dhaatu.cmx :
+./DATA/AkAfkRA/karwqsamAnAXikaraNa_dhaatu.cmo :
+./DATA/AkAfkRA/karwqsamAnAXikaraNa_dhaatu.cmx :
+./DATA/AkAfkRA/kqxanwa.cmo :
+./DATA/AkAfkRA/kqxanwa.cmx :
+./DATA/AkAfkRA/nirXAraNa.cmo :
+./DATA/AkAfkRA/nirXAraNa.cmx :
+./DATA/AkAfkRA/prawyavasAnArWa_dhaatu.cmo :
+./DATA/AkAfkRA/prawyavasAnArWa_dhaatu.cmx :
+./DATA/AkAfkRA/sakarmaka_dhaatu.cmo :
+./DATA/AkAfkRA/sakarmaka_dhaatu.cmx :
+./DATA/AkAfkRA/samboXana_sUcaka.cmo :
+./DATA/AkAfkRA/samboXana_sUcaka.cmx :
+./DATA/AkAfkRA/sampraxAna_dhaatu.cmo :
+./DATA/AkAfkRA/sampraxAna_dhaatu.cmx :
+./DATA/AkAfkRA/vAkyakarma_dhaatu.cmo :
+./DATA/AkAfkRA/vAkyakarma_dhaatu.cmx :
+./DATA/AkAfkRA/viRayAXikaraNa.cmo :
+./DATA/AkAfkRA/viRayAXikaraNa.cmx :
+./DATA/AkAfkRA/viRayi.cmo :
+./DATA/AkAfkRA/viRayi.cmx :
+./DATA/AkAfkRA/xvikarmaka1_dhaatu.cmo :
+./DATA/AkAfkRA/xvikarmaka1_dhaatu.cmx :
+./DATA/AkAfkRA/xvikarmaka2_dhaatu.cmo :
+./DATA/AkAfkRA/xvikarmaka2_dhaatu.cmx :
+./DATA/yogyawA/SabxavAci.cmo :
+./DATA/yogyawA/SabxavAci.cmx :
+./DATA/yogyawA/animate.cmo :
+./DATA/yogyawA/animate.cmx :
+./DATA/yogyawA/avy_viSeRaNam.cmo :
+./DATA/yogyawA/avy_viSeRaNam.cmx :
+./DATA/yogyawA/buxXivAci.cmo :
+./DATA/yogyawA/buxXivAci.cmx :
+./DATA/yogyawA/guNa_not_guNavacana.cmo :
+./DATA/yogyawA/guNa_not_guNavacana.cmx :
+./DATA/yogyawA/guNavacana.cmo :
+./DATA/yogyawA/guNavacana.cmx :
+./DATA/yogyawA/intensifiers.cmo :
+./DATA/yogyawA/intensifiers.cmx :
+./DATA/yogyawA/kAlAXikaraNa.cmo :
+./DATA/yogyawA/kAlAXikaraNa.cmx :
+./DATA/yogyawA/kAlAXva.cmo :
+./DATA/yogyawA/kAlAXva.cmx :
+./DATA/yogyawA/kriyAviSeRaNa.cmo :
+./DATA/yogyawA/kriyAviSeRaNa.cmx :
+./DATA/yogyawA/manuRyaparyAya.cmo :
+./DATA/yogyawA/manuRyaparyAya.cmx :
+./DATA/yogyawA/manuRyasaFjFAvAcI.cmo :
+./DATA/yogyawA/manuRyasaFjFAvAcI.cmx :
+./DATA/yogyawA/named_entity.cmo :
+./DATA/yogyawA/named_entity.cmx :
+./DATA/yogyawA/non_RaRTI.cmo :
+./DATA/yogyawA/non_RaRTI.cmx :
+./DATA/yogyawA/pUraNa.cmo :
+./DATA/yogyawA/pUraNa.cmx :
+./DATA/yogyawA/parAjAwi.cmo :
+./DATA/yogyawA/parAjAwi.cmx :
+./DATA/yogyawA/saMKyeya.cmo :
+./DATA/yogyawA/saMKyeya.cmx :
+./DATA/yogyawA/sambandhavaaci.cmo :
+./DATA/yogyawA/sambandhavaaci.cmx :
+./DATA/yogyawA/upAXi.cmo :
+./DATA/yogyawA/upAXi.cmx :
+./DATA/yogyawA/upapada6.cmo :
+./DATA/yogyawA/upapada6.cmx :
+./DATA/yogyawA/waxXiwAnwa.cmo :
+./DATA/yogyawA/waxXiwAnwa.cmx :
+./DATA/yogyawA/xeSAXikaraNa.cmo :
+./DATA/yogyawA/xeSAXikaraNa.cmx :
+./DATA/yogyawA/xravyavAcI.cmo :
+./DATA/yogyawA/xravyavAcI.cmx :
+./Heritage_ML/min_lexer.cmo :
+./Heritage_ML/min_lexer.cmx :
+./Heritage_ML/transduction.cmo :
+./Heritage_ML/transduction.cmx :

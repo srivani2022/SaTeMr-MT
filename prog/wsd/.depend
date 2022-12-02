@@ -1,0 +1,74 @@
+/home/san-tel-mar/Zen/ML/gen.cmo :
+/home/san-tel-mar/Zen/ML/gen.cmx :
+/home/san-tel-mar/Zen/ML/list2.cmo :
+/home/san-tel-mar/Zen/ML/list2.cmx :
+/home/san-tel-mar/Zen/ML/word.cmo : \
+    /home/san-tel-mar/Zen/ML/list2.cmo
+/home/san-tel-mar/Zen/ML/word.cmx : \
+    /home/san-tel-mar/Zen/ML/list2.cmx
+/home/san-tel-mar/Zen/ML/share.cmi :
+/home/san-tel-mar/Zen/ML/share.cmo : \
+    /home/san-tel-mar/Zen/ML/share.cmi
+/home/san-tel-mar/Zen/ML/share.cmx : \
+    /home/san-tel-mar/Zen/ML/share.cmi
+/home/san-tel-mar/Zen/ML/unshare.cmo : \
+    /home/san-tel-mar/Zen/ML/trie.cmo
+/home/san-tel-mar/Zen/ML/unshare.cmx : \
+    /home/san-tel-mar/Zen/ML/trie.cmx
+/home/san-tel-mar/Zen/ML/trie.cmo : \
+    /home/san-tel-mar/Zen/ML/word.cmo \
+    /home/san-tel-mar/Zen/ML/list2.cmo \
+    /home/san-tel-mar/Zen/ML/gen.cmo
+/home/san-tel-mar/Zen/ML/trie.cmx : \
+    /home/san-tel-mar/Zen/ML/word.cmx \
+    /home/san-tel-mar/Zen/ML/list2.cmx \
+    /home/san-tel-mar/Zen/ML/gen.cmx
+/home/san-tel-mar/Zen/ML/mini.cmo : \
+    /home/san-tel-mar/Zen/ML/trie.cmo \
+    /home/san-tel-mar/Zen/ML/share.cmi \
+    /home/san-tel-mar/Zen/ML/gen.cmo
+/home/san-tel-mar/Zen/ML/mini.cmx : \
+    /home/san-tel-mar/Zen/ML/trie.cmx \
+    /home/san-tel-mar/Zen/ML/share.cmx \
+    /home/san-tel-mar/Zen/ML/gen.cmx
+/home/san-tel-mar/Zen/ML/deco.cmo : \
+    /home/san-tel-mar/Zen/ML/word.cmo \
+    /home/san-tel-mar/Zen/ML/trie.cmo \
+    /home/san-tel-mar/Zen/ML/list2.cmo
+/home/san-tel-mar/Zen/ML/deco.cmx : \
+    /home/san-tel-mar/Zen/ML/word.cmx \
+    /home/san-tel-mar/Zen/ML/trie.cmx \
+    /home/san-tel-mar/Zen/ML/list2.cmx
+/home/san-tel-mar/Zen/ML/lexmap.cmo : \
+    /home/san-tel-mar/Zen/ML/word.cmo \
+    /home/san-tel-mar/Zen/ML/list2.cmo \
+    /home/san-tel-mar/Zen/ML/deco.cmo
+/home/san-tel-mar/Zen/ML/lexmap.cmx : \
+    /home/san-tel-mar/Zen/ML/word.cmx \
+    /home/san-tel-mar/Zen/ML/list2.cmx \
+    /home/san-tel-mar/Zen/ML/deco.cmx
+/home/san-tel-mar/Zen/ML/minimap.cmi : \
+    /home/san-tel-mar/Zen/ML/lexmap.cmo
+/home/san-tel-mar/Zen/ML/minimap.cmo : \
+    /home/san-tel-mar/Zen/ML/share.cmi \
+    /home/san-tel-mar/Zen/ML/lexmap.cmo \
+    /home/san-tel-mar/Zen/ML/deco.cmo \
+    /home/san-tel-mar/Zen/ML/minimap.cmi
+/home/san-tel-mar/Zen/ML/minimap.cmx : \
+    /home/san-tel-mar/Zen/ML/share.cmx \
+    /home/san-tel-mar/Zen/ML/lexmap.cmx \
+    /home/san-tel-mar/Zen/ML/deco.cmx \
+    /home/san-tel-mar/Zen/ML/minimap.cmi
+./pada_structure.cmi :
+wsd.cmo : \
+    pada_structure.cmi \
+    /home/san-tel-mar/Zen/ML/list2.cmo \
+    bank_lexer.cmo
+wsd.cmx : \
+    pada_structure.cmi \
+    /home/san-tel-mar/Zen/ML/list2.cmx \
+    bank_lexer.cmx
+../kAraka/Prepare_Graph/Heritage_ML/transduction.cmo :
+../kAraka/Prepare_Graph/Heritage_ML/transduction.cmx :
+../kAraka/Prepare_Graph/Heritage_ML/min_lexer.cmo :
+../kAraka/Prepare_Graph/Heritage_ML/min_lexer.cmx :
