@@ -1,4 +1,5 @@
 A,avy,paryanwa
+A,avy,A
 aBiwaH,avy,xono_ora
 aBi,avy,prawi
 acira,avy,saMkRipwa
