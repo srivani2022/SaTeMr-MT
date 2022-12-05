@@ -7,3 +7,4 @@ anna,napuM,annaM,napuM
 oxana,napuM,annaM,napuM
 gIwa,napuM,pAta,napuM
 sIwA,swrI,sIwa,swrI
+samavewa,puM,kUdi_unna,puM
